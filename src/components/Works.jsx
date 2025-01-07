@@ -7,7 +7,7 @@ import { fadeIn,textVariant } from '../utils/motion'
 import { Navigate } from 'react-router-dom'
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
 return(
-  <motion.div variants={fadeIn("up","spring",index * 0.5, 0.75)}>
+  <div variants={fadeIn("up","spring",index * 0.5, 0.75)}>
  <Tilt options={{
   max:45,
   scale:1,
@@ -23,7 +23,7 @@ return(
 {name}
 </h3>
  <button onClick={()=>{
-          window.open(source_code_link, '_blank', 'noopener','noreferrer');
+          window.open(source_code_link, '_blank', 'noopener,noreferrer');
  }} className='bg-black p-2 rounded-full font-bold hover:bg-blue-600 mt-2'>
 Visit Website
 </button>
@@ -39,13 +39,13 @@ Visit Website
 ))}
 </div>
  </Tilt>
-  </motion.div>
+  </div>
 )
 }
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div>
         <p className='text-xl'>
           My Works
         </p>
@@ -55,10 +55,9 @@ const Works = () => {
 
       </motion.div>
       <div className='w-full flex'>
-<motion.p
-variants={fadeIn("","",0.1,1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+<motion.p className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
 Following Projects showcases my skills and experience through real-world examples of my work.
-It reflects my ability to solve complex
+It reflects my ability to solve complex p
 problems ,
 and manage projects effectively
 </motion.p>
