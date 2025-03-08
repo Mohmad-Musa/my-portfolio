@@ -34,26 +34,29 @@ className=' bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-eve
 
 
 const About = () => {
-  return(
-      <>
-    <motion.div variants={textVariant()}>
-      <p className='text-xl'>
-        Introduction
-      </p>
-      <h2 className={styles.sectionHeadText}>
-        Overview.
-      </h2>
-    </motion.div>
-    <motion.p variants={fadeIn("","",0.1,1)} className='ml-2 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        Dynamic and results-oriented Software Engineer with a strong foundation in developing responsive web applications using React.js. ability to collaborate effectively with cross-functional teams to deliver software solutions that meet client needs. Passionate about leveraging technology to enhance user experience and streamline processes. Eager to contribute to a forward-thinking company while continuing to grow and refine my technical skills.
-    </motion.p>
-    <div className='mt-20  flex flex-wrap gap-10'>
-{services.map((services,index)=>(
-<ServiceCard key={services.title} index={index} {...services} />
-))}
-    </div>
-  </>
-  )
+  return (
+    <>
+      <motion.div variants={textVariant()}>
+        <p className="text-xl">Introduction</p>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
+      </motion.div>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="ml-2 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
+        Full-Stack Web Developer with 3+ years of experience building over 10
+        MERN stack projects. Skilled in creating seamless user experiences,
+        optimizing performance, and developing scalable back-end systems. I am
+        passionate about problem-solving, clean code, and delivering
+        high-quality web applications.
+      </motion.p>
+      <div className="mt-20  flex flex-wrap gap-10">
+        {services.map((services, index) => (
+          <ServiceCard key={services.title} index={index} {...services} />
+        ))}
+      </div>
+    </>
+  );
 }
 
 export default SectionWrapper(About,"about")

@@ -46,18 +46,18 @@ export const navLinks = [
 ];
 
 const services = [
-    {
-        title: "Web Developer",
-        icon: web,
-    },
-    {
-        title: "React.js Developer",
-        icon: mobile,
-    },
-    {
-        title: "Bachelor Degree In Software Engineering",
-        icon: backend,
-    },
+  {
+    title: "Web Developer",
+    icon: web,
+  },
+  {
+    title: "Full-Stack Developer",
+    icon: mobile,
+  },
+  {
+    title: "Bachelor’s degree in Software Engineering",
+    icon: backend,
+  },
 ];
 
 const technologies = [
@@ -78,14 +78,18 @@ const technologies = [
         name: "React JS",
         icon: reactjs,
     },
-  
     {
-        name: "Tailwind CSS",
-        icon: tailwind,
+        name: "Node.js",
+        icon: nodejs,
     },
+    
     {
         name: "MongoDB",
         icon: mongodb,
+    },
+    {
+        name: "Tailwind CSS",
+        icon: tailwind,
     },
     {
         name: "git",
@@ -104,41 +108,38 @@ const technologies = [
         name: "Three.js",
         icon: threejs,
     },
-    {
-        name: "Redux",
-        icon: redux,
-    },
 
 
 ];
 
 const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Octopus",
-        icon: starbucks,
-        iconBg: "#fff",
-        date: "March 2022 - April 2023",
-        points: [
-            "Developing and maintaining web applications using React.js",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+  {
+    title: "Full-Stack Developer",
+    company_name: "Octopus",
+    icon: starbucks,
+    iconBg: "#fff",
+    date: "Jan 2022 - Mar 2023",
+    points: [
+      "Worked with GSAP and Three.js to create dynamic and engaging animations for several agency websites, which enhanced user interaction and visual appeal",
+      "Managed large databases and optimized queries for efficient data retrieval and smooth performance.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developed and maintained responsive web applications, ensuring page load times under 3 seconds and optimizing APIs for better data handling, improving response times by 20%.",
+    ],
+  },
 
-    {
-        title: "React.js Developer",
-        company_name: "SkyFloyed",
-        icon: meta,
-        iconBg: "#FFF",
-        date: "May 2023 - Aug 2024",
-        points: [
-            "Participate in the complete software development lifecycle from planning to deployment.",
-            "Develop and test software solutions that meet client requirements",
-            "Collaborate with back-end developers to ensure seamless integration.",
-        ],
-    },
+  {
+    title: "Full-Stack Developer",
+    company_name: "Skyfloyed",
+    icon: meta,
+    iconBg: "#FFF",
+    date: "Apr 2023 - Jan 2025",
+    points: [
+      "Ensuring smooth performance with page load times under 3 seconds and optimizing APIs for efficient data handling, improving response times by 20-30%.",
+      "Working with databases to manage large datasets efficiently and prevent performance bottlenecks.",
+      "Collaborating with designers to create intuitive user interfaces and enhance front-end usability and accessibility.",
+      "Writing clean, maintainable, and scalable code while following best practices in web development.",
+    ],
+  },
 ];
 
 const testimonials = [
