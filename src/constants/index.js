@@ -250,7 +250,7 @@ const projects = [
   {
     name: "Nike",
     description:
-      "the Nike  website is designed to provide an aesthetically pleasing experience for users seeking the latest Nike footwear.Utilizing a clean layout,and enhancing product visibility with friendly-layout",
+      "The Nike  website is designed to provide an aesthetically pleasing experience for users seeking the latest Nike footwear.Utilizing a clean layout,and enhancing product visibility with friendly-layout",
     tags: [
       {
         name: "Reactjs",
