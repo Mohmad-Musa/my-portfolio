@@ -5,8 +5,10 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
+import iicb from "./iicb.png"
 import close from "./close.svg";
 import aherobg from "./aherobg.png";
+import iicw from "./iic.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,7 +22,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import iic from "./company/IIC-logo.png"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -39,6 +41,7 @@ export {
   backend,
   creator,
   mobile,
+  iic,
   web,
   github,
   menu,
@@ -48,6 +51,7 @@ export {
   figma,
   git,
   html,
+  iicb,
   javascript,
   mongodb,
   nodejs,
@@ -65,4 +69,5 @@ export {
   tripguide,
   nike,
   iphone,
+  iicw,
 };

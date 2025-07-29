@@ -42,13 +42,15 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="ml-2 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="ml-2 text-secondary text-[19px] max-w-3xl leading-[30px]"
       >
-        Full-Stack Web Developer with 3+ years of experience building over 10
-        MERN stack projects. Skilled in creating seamless user experiences,
-        optimizing performance, and developing scalable back-end systems. I am
-        passionate about problem-solving, clean code, and delivering
-        high-quality web applications.
+        Full Stack Developer with over 3 years of experience in the MERN stack
+        and a strong passion for software engineering. I build fast, scalable,
+        and user-friendly web applications with a focus on performance and
+        clean, maintainable code. I've contributed to a wide range of projects,
+        including marketing sites and real-time chat apps. I enjoy solving
+        complex problems and creating intuitive solutions while continuously
+        learning and growing as a developer.
       </motion.p>
       <div className="mt-20  flex flex-wrap gap-10">
         {services.map((services, index) => (
