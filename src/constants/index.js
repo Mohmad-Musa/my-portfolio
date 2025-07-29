@@ -334,7 +334,7 @@ const projects = [
       " Built responsive and browser-compatible webpages using with features as :  User Management, Content Management, Analytics and Reporting ,System Configuration ,Notification Management.",
     tags: [
       {
-        name: "Reactjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
